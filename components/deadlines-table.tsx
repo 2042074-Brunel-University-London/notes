@@ -98,7 +98,7 @@ export const DeadlinesTable: React.FC = () => {
                             return (
                                 <tr
                                     key={index}
-                                    className="even:bg-gray-300 even:dark:bg-gray-600/20"
+                                    className="even:bg-gray-100 even:dark:bg-gray-600/20"
                                 >
                                     <Td>{deadline.name}</Td>
                                     <Td>{deadline.module}</Td>
