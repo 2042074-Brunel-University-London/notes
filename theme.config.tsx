@@ -13,6 +13,13 @@ const config: DocsThemeConfig = {
   useNextSeoProps: () => ({
     titleTemplate: '%s – Uni Docs',
   }),
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Uni Notes" />
+      <meta property="og:description" content="Collection of notes and docs" />
+    </>
+  ),
   search: {
     placeholder: "Search notes..."
   },
