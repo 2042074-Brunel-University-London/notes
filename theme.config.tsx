@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.gg',
   },
-  docsRepositoryBase: 'https://github.com/asobirov/uni-docs',
+  docsRepositoryBase: 'https://github.com/asobirov/uni-docs/tree/main/',
   useNextSeoProps: () => ({
     titleTemplate: '%s – Uni Docs',
   }),
@@ -22,6 +22,13 @@ const config: DocsThemeConfig = {
   ),
   search: {
     placeholder: "Search notes..."
+  },
+  editLink: {
+    text: 'Edit this page on GitHub →'
+  },
+  feedback: {
+    content: 'Question? Give us feedback →',
+    labels: 'feedback'
   },
   footer: {
     component: ({ menu }) => (<></>)
